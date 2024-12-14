@@ -1,0 +1,98 @@
+.img{
+    padding: 0px;
+    height: 60px;
+}
+body{
+    margin: 0%;
+    background-color:#797979;
+}
+.h{
+    display: flex;
+    background-color: #525252;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 10px 10px;
+    border-radius: 0 0 25PX 25PX;
+    font-size: large;
+}
+.f{ display: flex;
+    background-color: #525252;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 15px 10px 85px;
+    border-radius: 25PX 25PX 0 0;
+    
+
+}
+.link a{
+    color: black;
+    padding: 0 5px;
+    text-decoration: none;
+    border-radius:0 0 0 10px;
+}
+.link a:hover{
+    background-color: #797979;
+    border-radius: 15px;
+    padding: 5px;
+}
+h4{
+    cursor: pointer;
+    color: #000;
+}
+h1{
+    cursor: default;
+}
+h3{
+    cursor: default;
+}
+button{
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.input{
+    border-radius: 20px;
+    width: 120px;
+    height: 20px;
+    border: 0;
+}
+.inputs{
+    border-radius: 20px;
+    background-color: #797979;
+    border: 0;
+    height: 20px;
+}
+.tp{
+    height: 200px;
+    padding: 5px 5px 10px 30px;
+}
+.card{
+    margin: 0 0 20px 0;
+    padding:0 4px;
+    text-align: center;
+    display: flex;
+    background-color: #525252;
+    border-radius: 20px;
+    gap: 41PX;
+}
+div h1 {
+    padding: 24px;
+    margin: 0;
+}
+div h4 {
+    margin: 0;
+    padding: 7px 20px;
+}
+.card img{
+    border-radius: 20px 20px;
+    padding: 0;
+    cursor: pointer;
+}
+.card div:hover{
+    transform: scale(1.2);
+}
+.card div{
+    transition: .4s;
+}
